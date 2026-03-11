@@ -14,7 +14,7 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: rihyundocker/cicd_guestbook:20260311011602_29
+      - image: rihyundocker/cicd_guestbook:20260311081805_1
         name: sb-guestbook
         envFrom:
         - configMapRef:
